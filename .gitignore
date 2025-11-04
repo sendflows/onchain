@@ -1,0 +1,20 @@
+# Ignore dotenv environment files
+# These hold secrets and should not be committed.
+.env
+.env.*
+*.env
+
+# Optional: local env variants (already covered by .env.* but listed for clarity)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.csv
+*.json
+
+
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
